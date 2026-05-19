@@ -36,15 +36,15 @@ Explorar a utilização de Large Language Models (LLMs) na análise longitudinal
 
 ## Interface da aplicação
 
-![Interface](interface_streamlit.png)
+![Interface](figures/interface_streamlit.png)
 
 ## Estruturação temporal dos dados
 
-![Série Temporal](serie_temporal.png)
+![Série Temporal](figures/serie_temporal.png)
 
 ## Exemplo de previsão temporal
 
-![Previsão](grafico_previsao.png)
+![Previsão](figures/grafico_previsao.png)
 
 ## Como executar
 
@@ -57,5 +57,5 @@ pip install -r requirements.txt
 Executar a aplicação:
 
 ```bash
-streamlit run streamlit_app.py
+streamlit run app/streamlit_app.py
 ```
