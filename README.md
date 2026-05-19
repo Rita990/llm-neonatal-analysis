@@ -32,3 +32,30 @@ prompts/   -> prompts utilizados
 # Objetivo
 
 Explorar a utilização de Large Language Models (LLMs) na análise longitudinal de dados clínicos neonatais e na previsão temporal da evolução do peso em recém-nascidos.
+
+
+## Interface da aplicação
+
+![Interface](interface_streamlit.png)
+
+## Estruturação temporal dos dados
+
+![Série Temporal](serie_temporal.png)
+
+## Exemplo de previsão temporal
+
+![Previsão](grafico_previsao.png)
+
+## Como executar
+
+Instalar dependências:
+
+```bash
+pip install -r requirements.txt
+```
+
+Executar a aplicação:
+
+```bash
+streamlit run streamlit_app.py
+```
